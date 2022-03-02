@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/flutterprojects/App3/app/src/main/res/layout/activity_main.xml" value="0.14583333333333334" />
         <entry key="..\:/flutterprojects/App3/app/src/main/res/layout/fragment_headlines.xml" value="0.18885869565217392" />
+        <entry key="..\:/flutterprojects/App3/app/src/main/res/layout/fragment_newsdetails.xml" value="0.18885869565217392" />
       </map>
     </option>
   </component>
