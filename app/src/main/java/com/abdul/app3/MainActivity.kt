@@ -13,6 +13,35 @@ class MainActivity : AppCompatActivity(), HeadlinesFragment.HeadlinesClickListen
         setContentView(R.layout.activity_main)
     }
 
+    override fun onStart() {
+        super.onStart()
+        Log.i(TAG,"onstart")
+    }
+
+    override fun onResume() {
+        super.onResume()
+        Log.i(TAG,"onresume")
+
+    }
+
+    override fun onPause() {
+        super.onPause()
+        Log.i(TAG,"onpause")
+
+    }
+
+    override fun onStop() {
+        super.onStop()
+        Log.i(TAG,"onstop")
+
+    }
+
+    override fun onDestroy() {
+        super.onDestroy()
+        Log.i(TAG,"onstop")
+    }
+
+
     override fun onHeadlineclick(headline: String) {
         Log.i(TAG,"from main activity --"+headline)//5
         //6
