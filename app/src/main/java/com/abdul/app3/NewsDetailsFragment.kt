@@ -8,7 +8,7 @@ import android.widget.TextView
 import androidx.fragment.app.Fragment
 
 class NewsDetailsFragment : Fragment() {
-    lateinit var tvNews:TextView
+    lateinit var tvNews:TextView //7
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -22,6 +22,6 @@ class NewsDetailsFragment : Fragment() {
     }
 
     fun setNews(headline: String) {
-        tvNews.setText(headline)
+        tvNews.setText(headline) //8
     }
 }
