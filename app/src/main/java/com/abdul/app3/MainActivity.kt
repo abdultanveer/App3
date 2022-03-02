@@ -15,5 +15,7 @@ class MainActivity : AppCompatActivity(), HeadlinesFragment.HeadlinesClickListen
 
     override fun onHeadlineclick(headline: String) {
         Log.i(TAG,"from main activity --"+headline)
+       var newsDetailsFragment: NewsDetailsFragment = supportFragmentManager.findFragmentById(R.id.newDetailsfragment) as NewsDetailsFragment
+        newsDetailsFragment.setNews(headline)
     }
 }

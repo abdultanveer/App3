@@ -16,7 +16,7 @@
         />
 
     <androidx.fragment.app.FragmentContainerView
-        android:id="@+id/fragmentContainerView2"
+        android:id="@+id/newDetailsfragment"
         android:name="com.abdul.app3.NewsDetailsFragment"
 
         android:layout_width="0dp"
