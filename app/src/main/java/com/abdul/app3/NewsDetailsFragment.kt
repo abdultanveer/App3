@@ -47,6 +47,8 @@ class NewsDetailsFragment : Fragment() {
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
         Log.i(TAG,"onActivityCreated")
+        var a: String = "abc"
+       // a = null
     }
     override fun onStart() {
         super.onStart()
