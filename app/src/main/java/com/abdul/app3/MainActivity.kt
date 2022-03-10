@@ -7,6 +7,10 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.async
 
+
+/**
+ * this is jhons comment
+ */
 class MainActivity : AppCompatActivity(), HeadlinesFragment.HeadlinesClickListener { //3a
     companion object{
         var TAG = MainActivity::class.java.simpleName
